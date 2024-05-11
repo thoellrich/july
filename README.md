@@ -83,6 +83,7 @@ Also, as a summer loving person stuck in the Northern hemisphere, July is my fav
 - **`v0.1.1`**: Fix relative image link in readme.
 - **`v0.1.2`**: Remove unnecessary argument from rcmod to be compatible with matplotlib versions earlier than v3.4.x.
 - **`v0.1.3`**: Fix week number labelling bug in `month_plot()` and `calendar_plot()`
+- **`v0.1.4`**: Avoid error when trying to access `mpl.cbook.MatplotlibDeprecationWarning`
 
 ### TODO:
 - Fix slight misalignment of plot and cbar when `date_grid` and `colorbar` are used in conjunction.
