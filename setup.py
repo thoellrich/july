@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="july",
-    version="0.1.3",
+    version="0.1.4",
     author="Edvard Hultén",
     author_email="edvard.hulten@gmail.com",
     description="A small library for creating pretty heatmaps of daily data.",
