@@ -35,8 +35,8 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     install_requires=[
-        "matplotlib",
-        "numpy",
+        "matplotlib>=3.9.0",
+        "numpy>=1.26.4",
     ],
     python_requires=">=3.6",
 )
